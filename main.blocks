@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="LSn%uy!e.UsLo)z_Y517">Player</variable><variable type="KIND_SpriteKind" id="IKb~:W`A|rbcl;2AMUso">Projectile</variable><variable type="KIND_SpriteKind" id="NmS^.n~)KPvqtN53#yZn">Food</variable><variable type="KIND_SpriteKind" id="/7oKoydZ#PHL|)[a;:`w">Enemy</variable><variable id="BYwvk5eZ9.1Z$/ByN-Xk">myDigit</variable><variable id="dqJs`47w[Mb)MS]LO932">love</variable></variables><block type="pxt-on-start" id="1|ss]vcdGLkz:PIXQ),q" x="0" y="0"><statement name="HANDLER"><block type="mp_setPlayerSprite" id="ClYhS{.Tmuj1+It21YWn"><value name="player"><shadow type="mp_playerSelector" id="GD%3d;m5G)O)2n;Ld.k3"><field name="number">mp.PlayerNumber.One</field></shadow></value><value name="sprite"><shadow type="spritescreate" id="-_t8HIZ)e?xP7Np19}zN"><value name="img"><shadow type="screen_image_picker" id="^~7opF#N**/-%rq#U+ap"><field name="img">img`
+. . . b b b b b b b b b . . . . 
+. . b 1 d d d d d d d 1 b . . . 
+. b 1 1 1 1 1 1 1 1 1 1 1 b . . 
+. b d b c c c c c c c b d b . . 
+. b d c 6 6 6 6 6 6 6 c d b . . 
+. b d c 6 d 6 6 6 6 6 c d b . . 
+. b d c 6 6 6 6 6 6 6 c d b . . 
+. b d c 6 6 6 6 6 6 6 c d b . . 
+. b d c 6 6 6 6 6 6 6 c d b . . 
+. b d c c c c c c c c c d b . . 
+. c b b b b b b b b b b b c . . 
+c b c c c c c c c c c c c b c . 
+c 1 d d d d d d d d d d d 1 c . 
+c 1 d 1 1 d 1 1 d 1 1 d 1 1 c . 
+c b b b b b b b b b b b b b c . 
+c c c c c c c c c c c c c c c . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"^~7opF#N**/-%rq#U+ap"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Q;sa_sY?Q4a`c2=bovO,"><field name="MEMBER">Player</field></shadow></value></shadow></value><next><block type="SevenSegDigit_blockCombine_set" id="kGe_#-4u%p[joJ847:Hj"><field name="property">SevenSegDigit.value@set</field><value name="myDigit"><block type="variables_get" id="6KC^*UXjzl[-aV3s6b6("><field name="VAR" id="dqJs`47w[Mb)MS]LO932">love</field></block></value><value name="value"><shadow type="math_number" id="w05HEa8gW_y`m-g-[|_T"><field name="NUM">0</field></shadow></value></block></next></block></statement></block></xml>
